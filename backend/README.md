@@ -16,3 +16,4 @@ To run the backend, execute the following command after install:
 + squelize
 + jsonwebtoken
 + bcrypt
+
