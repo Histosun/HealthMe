@@ -2,7 +2,7 @@ import axios, { InternalAxiosRequestConfig } from "axios"
 
 axios.defaults.headers['Content-Type'] = 'application/json;charset=utf-8'
 
-const baseUrl: string = "http://localhost:3000";
+const baseUrl: string = "http://10.0.2.2:3000";
 
 let request = axios.create({
     baseURL: baseUrl,
